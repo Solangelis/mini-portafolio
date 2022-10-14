@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Portafolio</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
 <body>
     <main class="cartao">
-        <div class="'minhas_infomacoes">
+        <div class="minhas_infomacoes">
             <img src="./src/imagens/foto.jpg" alt="foto de perfil">
             <h1 class="nome">Solangelis</h1>
             <h2 class="cargo">Desenvolvedor FullStack</h2>
@@ -20,7 +22,7 @@
 
         <div class="conteudo">
             <ul class="abas">
-                <li class="aba">
+                <li class="aba selecionado">
                     <img src="./src/imagens/sobre.gif" alt="icone sobre mim">
                 </li>
                 <li class="aba">
@@ -29,26 +31,37 @@
             </ul>
 
             <div class="informacoes-abas">
-                <div class="informacao">
-                    <h3>Sobre</h3>
-                    <div>
-                        <p>ola meu nome e sol</p>
-                        <p>gosto da programacion gphlp <span>djdkdjhdndlkmndmdl</span>lofhfoklpogkldpf,ç lfoffllf</p>
+                <div class="informacao selecionado">
+                    <h3 class="sub-titulo">Sobre mim</h3>
+                    <div class="descricao">
+                        <p>Olá meu nome é Solangelis sou Venezuelana tenho 29 anos.</p>
+                        <p>Sou apaixonada pela tecnologia, gosto de fazer cursos é aprender coisas novas, quero aprender
+                            diferentes linguagens de programação e me tornar um desenvolvedor capaz é eficiente,tenho
+                            interesse de aprender diferentes idiomas!
+                        </p>
                     </div>
                 </div>
 
 
-                <div>
+                <div class="informacao">
                     <h3>Minhas Redes Sociais</h3>
-                    <ul>
+                    <ul class="redes-sociais">
                         <li>
-                       <a href="https://www.linkedin.com/in/solangelis-hernandez-gonzalez-098164213/" target="_blank">Curriculo</a>
+                            <a href="https://www.linkedin.com/in/solangelis-hernandez-gonzalez-098164213/"
+                                target="_blank" class="linkedin">Linkedin</a>
                         </li>
+
                         <li>
-                            <a href="https://www.linkedin.com/in/solangelis-hernandez-gonzalez-098164213/" target="_blank">Linkedin</a>
+                            <a href="https://github.com/Solangelis" target="_blank" class="github">Github</a>
                         </li>
+
+
+
+
                         <li>
-                            <a href="https://www.linkedin.com/in/solangelis-hernandez-gonzalez-098164213/" target="_blank">Github</a>
+                            <a href="https://www.facebook.com/solangelis.hernandezgonzalez" target="_blank"
+                                class="curriculo">facebook</a>
+
                         </li>
                     </ul>
                 </div>
